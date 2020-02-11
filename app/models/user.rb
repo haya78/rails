@@ -1,6 +1,6 @@
 class User < ApplicationRecord
    #名前の長さに15文字までの制限を追加
-  validates :name, presence: true, length: {maximum: 15}
+  validates :name, presence: true, length: { maximum: 15 }
 
   #メールアドレスの正規表現
   validates :email, presence: true
