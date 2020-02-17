@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3{
   font-weight: 100;
 }
 
@@ -12,7 +12,7 @@ h1, h2 {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 20px;
-  background-color: rgba( 0,0,0,0.0 );
+  background-color: rgba(0,0,0,0.0);
 
   &:hover {
     color: #fff;
@@ -22,7 +22,7 @@ h1, h2 {
 .top-hero-wrapper {
   width: 100vw;
   height: 100vh;
-  background-image: url( 'bg-top.png' );
+  background-image: url('bg-top.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -38,7 +38,11 @@ h1, h2 {
   }
 
   h2 {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+  }
+  h3{
+    margin-top:0px;
+    margin-botoom: 100px;
   }
 }
 
@@ -49,18 +53,19 @@ h1, h2 {
 .users-new-wrapper {
   width: 100vw;
   height: 100vh;
-  background-image: image-url( 'bg-top.png' );
+  background-image: image-url('bg-top.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-color: #464646;
-}
 
-.users-new-container {
-  padding-top: 22px;
-  
-  .form-group {
-    margin-bottom: 20px;
+  .users-new-container {
+    padding-top: 220px;
+
+    .form-group {
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -94,8 +99,8 @@ h1, h2 {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 20px;
-  background-color: rgba( 0,0,0,0.0 );
-  
+  background-color: rgba(0,0,0,0.0);
+
   &:hover {
     color: #565656;
   }
@@ -136,11 +141,18 @@ h1, h2 {
       height: 30px;
       margin-left: 20px;
     }
-    .topic-like-icon {
+    
+    .topic-index-icon1 {
       width: 35px;
       height: 30px;
       margin-left: 20px;
-      background-color: #8899a6;
+    }
+    
+    .topic-index-icon2 {
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+      background-color: #DC143C;
     }
   }
 }
